@@ -147,4 +147,4 @@ Never commit `.env` (API keys + DB password).
 - Explicit **confidence gate** and human escalation
 - Measurable **latency per step** to a clear product goal
 
-See also: `LINKEDIN_POST.md`, images in `docs/linkedin/`, and the explainer video in `docs/linkedin/video/`.
+See also the images in `docs/linkedin/` and the explainer video in `docs/linkedin/video/`.

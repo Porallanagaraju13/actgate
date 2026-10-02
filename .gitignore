@@ -21,6 +21,7 @@ huggingface/
 *.db
 data/last_sample_run.json
 *.mp4
+docs/LINKEDIN_POST.md
 scripts/_publish_render.py
 scripts/_askpass.py
 scripts/_askpass.cmd

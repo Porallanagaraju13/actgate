@@ -28,7 +28,6 @@ Samples live in `data/sample_tickets.json`.
 |-----|------|
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | **Execute + deploy** (local, VPS, Docker) |
 | [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md) | Architecture |
-| [docs/LINKEDIN_POST.md](docs/LINKEDIN_POST.md) | Post + visuals |
 
 ## Stack
 
