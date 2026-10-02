@@ -1,0 +1,80 @@
+{
+  "load_ms": 851630.46,
+  "decide_ms": 5963.02,
+  "answers": {
+    "intent": {
+      "type": "choice",
+      "choice": "refund",
+      "probabilities": {
+        "refund": 0.9819,
+        "shipping": 0.0041,
+        "bug": 0.0041,
+        "cancel": 0.0037,
+        "other": 0.0063
+      },
+      "confidence": 0.9284,
+      "answer_confidence": 0.9819,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    "urgency": {
+      "type": "noul",
+      "noul": 0.8908,
+      "confidence": 0.8908,
+      "answer_confidence": 0.8908,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "score": 1.7343,
+      "legend": {
+        "0": "calm",
+        "1": "concerned",
+        "2": "annoyed",
+        "3": "very angry"
+      },
+      "probabilities": {
+        "0": 0.1189,
+        "1": 0.2134,
+        "2": 0.4821,
+        "3": 0.1856
+      },
+      "confidence": 0.1003,
+      "answer_confidence": 0.4821,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    "risk": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.3598,
+        "medium": 0.0998,
+        "high": 0.5404
+      },
+      "confidence": 0.1531,
+      "answer_confidence": 0.5404,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    "next_step": {
+      "type": "choice",
+      "choice": "ask_human",
+      "probabilities": {
+        "draft_reply": 0.2596,
+        "ask_human": 0.4531,
+        "block": 0.2874
+      },
+      "confidence": 0.0287,
+      "answer_confidence": 0.4531,
+      "action": {
+        "act_probability": 1.0
+      }
+    }
+  }
+}

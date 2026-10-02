@@ -1,0 +1,74 @@
+[
+  {
+    "name": "urgent_refund",
+    "gate": "ask_human",
+    "goal_reached": false,
+    "total_ms": 1758.44,
+    "steps": [
+      {
+        "step": "jev_decide",
+        "duration_ms": 1758.32,
+        "ok": true,
+        "detail": "TypeSafe Jev"
+      },
+      {
+        "step": "gate_after_jev",
+        "duration_ms": 0.12,
+        "ok": true,
+        "detail": "ask_human"
+      }
+    ],
+    "intent": "refund",
+    "confidence": 0.7525
+  },
+  {
+    "name": "calm_bug",
+    "gate": "auto_draft",
+    "goal_reached": true,
+    "total_ms": 12120.8,
+    "steps": [
+      {
+        "step": "jev_decide",
+        "duration_ms": 600.94,
+        "ok": true,
+        "detail": "TypeSafe Jev"
+      },
+      {
+        "step": "gate_after_jev",
+        "duration_ms": 0.12,
+        "ok": true,
+        "detail": "auto_draft"
+      },
+      {
+        "step": "gemini_draft",
+        "duration_ms": 11519.74,
+        "ok": true,
+        "detail": "model=gemini-3.8-flash"
+      }
+    ],
+    "intent": "bug",
+    "confidence": 0.7825
+  },
+  {
+    "name": "decision_only_jev",
+    "gate": "auto_draft",
+    "goal_reached": true,
+    "total_ms": 717.53,
+    "steps": [
+      {
+        "step": "jev_decide",
+        "duration_ms": 717.45,
+        "ok": true,
+        "detail": "TypeSafe Jev"
+      },
+      {
+        "step": "gate_after_jev",
+        "duration_ms": 0.08,
+        "ok": true,
+        "detail": "auto_draft"
+      }
+    ],
+    "intent": "cancel",
+    "confidence": 0.8525
+  }
+]
