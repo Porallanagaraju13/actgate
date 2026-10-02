@@ -2,9 +2,9 @@
 
 ## Try it
 
-Public demo (works while this PC is on):
+Public demo:
 
-https://flop-unsubtly-swimmable.ngrok-free.dev
+https://actgate.onrender.com
 
 Visitors pick a sample ticket and run it. Custom messages are blocked. Eight runs per person per hour.
 
